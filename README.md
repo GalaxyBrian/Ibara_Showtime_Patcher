@@ -83,3 +83,7 @@ Changing a song takes three edits:
 repacks it with a deterministic optimal-parse compressor, so the default build
 is byte-identical every time. The boot-text change also disables the two calls
 that print the board clock's month and day over the text.
+
+## Testing
+This patch was tested with MAME 0.289 and [CV1k core for the MiSTER FPGA by Raki](https://www.patreon.com/c/ikamusume/posts)<br>
+I will provide an MRA I'm using for my testing. The patch Ibara files needs to be in ibarasht.zip. Feel free to tweak it to your own liking.
