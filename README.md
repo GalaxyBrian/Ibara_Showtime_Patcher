@@ -87,3 +87,14 @@ that print the board clock's month and day over the text.
 ## Testing
 This patch was tested with MAME 0.289 and [CV1k core for the MiSTER FPGA by Raki](https://www.patreon.com/c/ikamusume/posts)<br>
 I will provide an MRA I'm using for my testing. The patch Ibara files needs to be in ibarasht.zip. Feel free to tweak it to your own liking.
+
+## Credits
+
+- [GalaxyBrian](https://github.com/GalaxyBrian) – project, testing
+- [Claude](https://claude.ai) (Anthropic) – reverse engineering and patcher code
+- Tested on the CV1k core for MiSTer FPGA by [Raki](https://www.patreon.com/c/ikamusume/posts)
+
+## Disclaimer
+
+This project is not affiliated with or endorsed by Cave. Ibara and Ibara Kuro Black Label are trademarks of their respective owners.<br>
+You must supply your own legally obtained ROM dump.
