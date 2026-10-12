@@ -19,7 +19,7 @@ Each slot keeps Black Label's own volume.
 ## Usage
 
 Requires Python 3.8+ (standard library only).<br>
-It's easiest to copy the ibarablk.zip to the same directory as showtime_patch.py and run the following command
+It's easiest to copy `ibarablk.zip` into the same folder as `showtime_patch.py` and run:
 ```sh
 python showtime_patch.py ibarablk.zip                 # MAME romset or any zip
 ```
@@ -85,14 +85,14 @@ is byte-identical every time. The boot-text change also disables the two calls
 that print the board clock's month and day over the text.
 
 ## Testing
-This patch was tested with MAME 0.289 and [CV1k core for the MiSTER FPGA by Raki](https://www.patreon.com/c/ikamusume/posts)<br>
-I will provide an MRA I'm using for my testing. The patch Ibara files needs to be in ibarasht.zip. Feel free to tweak it to your own liking.
+This patch was tested with MAME 0.289 and [CV1k core for the MiSTer FPGA by Raki](https://www.patreon.com/c/ikamusume/posts)<br>
+I will provide the MRA I'm using for my testing. The patched Ibara files need to be in `ibarasht.zip`. Feel free to tweak it to your own liking.
 
 ## Credits
 
 - [GalaxyBrian](https://github.com/GalaxyBrian) – project, testing
 - [Claude](https://claude.ai) (Anthropic) – reverse engineering and patcher code
-- Tested on the CV1k core for MiSTer FPGA by [Raki](https://www.patreon.com/c/ikamusume/posts)
+- Tested on the CV1k core for the MiSTer FPGA by [Raki](https://www.patreon.com/c/ikamusume/posts)
 
 ## Disclaimer
 
