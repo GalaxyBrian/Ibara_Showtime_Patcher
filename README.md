@@ -18,12 +18,10 @@ Each slot keeps Black Label's own volume.
 
 ## Usage
 
-Requires Python 3.8+ (standard library only).
-
+Requires Python 3.8+ (standard library only).<br>
+It's easiest to copy the ibarablk.zip to the same directory as showtime_patch.py and run the following command
 ```sh
-python showtime_patch.py path/to/ibarablk.zip                 # MAME romset or any zip
-python showtime_patch.py path/to/ibarablk_folder              # or a folder
-python showtime_patch.py ibarablk.zip --zip ibarablk_new.zip  # also write a complete romset
+python showtime_patch.py ibarablk.zip                 # MAME romset or any zip
 ```
 
 Patched `ibarablk_u4` and `u23` go to `./output` (change with `-o`). They keep
