@@ -16,7 +16,20 @@ result against known checksums.
 Boot screen: `2006/xx/xx. MASTER VER.` → `2026/10/12 SHOW TIME`.
 Each slot keeps Black Label's own volume.
 
-## Usage
+## Web patcher
+
+The easiest way: open the **[Show Time Patcher](https://galaxybrian.github.io/Ibara_Showtime_Patcher/)**
+and drop in your `ibarablk.zip`. The page:
+
+1. checks every file name and CRC32 in the zip (and the actual data of `ibarablk_u4` and `u23`),
+2. automatically builds the Show Time `ibarablk_u4` and `u23` (a few seconds),
+3. checks the result against the output checksums below and lets you download the two patched files as a zip.
+
+Everything runs in your browser, and your ROMs are never uploaded. The page is
+`index.html` in this repository and produces exactly the same files as the
+default Python build.
+
+## Usage (Python)
 
 Requires Python 3.8+ (standard library only).<br>
 It's easiest to copy `ibarablk.zip` into the same folder as `showtime_patch.py` and run:
